@@ -1,20 +1,29 @@
 import React,{useState} from "react";
+import '../styles/TipInputs.css'
   
   export default function TipInputs () {
     return (
-        <section>
+        <section className="form-input">
             <form>
                 <label>
                     Bill Amount:
-                    <input type="text" name="bill" />
+                    <input 
+                    type="text" 
+                    name="bill" 
+                    placeholder="$0.00"/>
                 </label>
                 <label>
                     Tip Percent:
-                    <input type="text" name="percent" />
+                    <input 
+                    type="text"
+                     name="percent" 
+                     placeholder="%"/>
                 </label>
                 <label>
-                    Number of people to split between:
-                    <input type="text" name="percent" />
+                    Split between:
+                    <input type="text" 
+                    name="percent"
+                    placeholder="Number of people" />
                 </label>
                 <input type="submit" value="Submit" />
             </form>
