@@ -1,0 +1,11 @@
+.parent-container {
+    display: flex;
+    justify-content: center;
+}
+.child-container {
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid red;
+
+} 
